@@ -2,97 +2,141 @@
 <html>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <head>
+    <link rel="stylesheet" type="text/css" href="../Styles/index.css"/>
     <style>
-    body{
-        margin:0%;
-        padding:0%
-    }
-    .left{
-        position:fixed;
-        float:left;
-        width:30%;
-        height:100%;
-        background-image: url(./app/Home/Static/Img/cover.jpg );
-        background-repeat: no-repeat;
-        text-align: center;
-    }
-    .right{
-        float:right;
-        width:100%;
-        height:100%;
-        background-color: white;
-    }
-    .righttop{
-        float:right;
-        width:68%;
-        height:50%;
-        background-color: white;
-        margin:20px;
-    }
-    .Drawings{
-        width:100%;
-        height:400px;
-        margin-top:20px;
-    }
-    .article{
-        float:right;
-        width:68%;
-        height:50%;
-        background-color: white;
-        margin:20px;
-    }
-    .article-left-1{
-        float:left;
-        width: 300px;
-        height:300px;
-        margin-bottom:10px;
-    }
-    .article-right{
-        float:left;
-        width:70%;
-        height:100%;
-        text-align: left;
-        margin:13px;
-    }
+        .top{
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    padding-top: 4%;
+    padding-bottom: 0%;
+}
+body{
+    margin:0%;
+    padding:0%
+}
+.left{
+    position:fixed;
+    float:left;
+    width:30%;
+    height:100%;
+    background-image: url(./app/Home/Static/Img/cover.jpg );
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.right{
+    float:right;
+    width:100%;
+    height:100%;
+    background-color: white;
+}
+.username{
+    color:azure;
+    text-align:center;
+    font-weight:500;
+    font-size: 20px;
+    line-height: 200%;
+}
+.usersignature{
+    color:azure;
+    text-align:center;
+    font-weight:350;
+    font-size: 15px;
+    line-height: 50%;
+    line-height: 15px;
+}
+.icon{
+    height:70px;
+}
+.iconstyle{
+    text-align:left;
+}
+.iconpicture{
+    width:8%;
+    length:3%;
+    color:aliceblue;
+    margin-left: 60px;
+    text-align:left;
+}
+.iconpicture2{
+    width:8%;
+    length:3%;
+    color:aliceblue;
+    margin-left: 0px;
+    text-align:left;
+}
+.righttop{
+    float:right;
+    width:68%;
+    height:50%;
+    background-color: white;
+    margin:20px;
+}
+.Drawings{
+    width:100%;
+    height:400px;
+    margin-top:20px;
+}
+.article{
+    float:right;
+    width:68%;
+    height:50%;
+    background-color: white;
+    margin:20px;
+}
+.article-left-1{
+    float:left;
+    width: 300px;
+    height:300px;
+    margin-bottom:10px;
+}
+.article-right{
+    float:left;
+    width:70%;
+    height:100%;
+    text-align: left;
+    margin:13px;
+}
     </style>
 </head>
 <body>
     <div class="left">
-        <img class="top" src="./app/Home/Static/Img/head.jpg" style="border-radius:50%;width:100px;height:100px;padding-top: 4%;padding-bottom: 0%;">
-        <p style="color:azure;text-align:center;font-weight:500;font-size: 20px;line-height: 200%;">Louis Barranqueiro</p>
-        <p style="color:azure;text-align:center;font-weight:350;font-size: 15px;line-height: 50%;">I write code to enrich and ease ife of others.</p>
-        <p style="color:azure;text-align:center;font-weight:350;font-size: 15px;line-height: 50%;">I also ride on two wheels.</p>
+        <img class="top" src="./app/Home/Static/Img/head.jpg">
+        <p class="username">Louis Barranqueiro</p>
+        <p class="usersignature">
+            I write code to enrich and ease ife of others.<br></br>
+            I also ride on two wheels.</p>
         <table cellspacing="1px" cellpadding="2px">
-        <tr style="height:70px">
-            <td align=left><img src="./app/Home/Static/Img/Home.png" style="width:8%;length:3%;color:aliceblue;margin-left: 60px;"><span style="color:azure;">&emsp; Home</span> </td>
-            <td align=left><img src="./app/Home/Static/Img/GitHub .png" style="width:8%;length:3%;"><span style="color:azure">&emsp; GitHub</span> </td>
+        <tr class="icon">
+            <td class="iconstyle"><img class="iconpicture"src="./app/Home/Static/Img/Home.png"><span style="color:azure;">&emsp; Home</span> </td>
+            <td class="iconstyle"><img class="iconpicture2"src="./app/Home/Static/Img/GitHub .png"><span style="color:azure">&emsp; GitHub</span> </td>
         </tr>
-        <tr style="height:70px">
-            <td align=left><img src="./app/Home/Static/Img/categories.png" style="width:8%;length:3%;color:aliceblue;margin-left: 60px;"><span style="color:azure;">&emsp; categories</span> </td>
-            <td align=left><img src="./app/Home/Static/Img/stack-overflow.png" style="width:8%;length:3%;"><span style="color:azure">&emsp; stack-overflow</span> </td>
+        <tr class="icon">
+            <td class="iconstyle"><img class="iconpicture"src="./app/Home/Static/Img/categories.png"><span style="color:azure;">&emsp; categories</span> </td>
+            <td class="iconstyle"><img class="iconpicture2"src="./app/Home/Static/Img/stack-overflow.png"><span style="color:azure">&emsp; stack-overflow</span> </td>
         </tr>
-        <tr style="height:70px">
-            <td align=left><img src="./app/Home/Static/Img/tags.png" style="width:8%;length:3%;color:aliceblue;margin-left: 60px;"><span style="color:azure;">&emsp; tags</span> </td>
-            <td align=left><img src="./app/Home/Static/Img/twitter.png" style="width:8%;length:3%;"><span style="color:azure">&emsp; Twitter</span> </td>
+        <tr class="icon">
+            <td class="iconstyle"><img class="iconpicture"src="./app/Home/Static/Img/tags.png"><span style="color:azure;">&emsp; tags</span> </td>
+            <td class="iconstyle"><img class="iconpicture2"src="./app/Home/Static/Img/twitter.png"><span style="color:azure;">&emsp; Twitter</span> </td>
         </tr>
-        <tr style="height:70px" >
-            <td align=left><img src="./app/Home/Static/Img/archives.png" style="width:8%;length:3%;color:aliceblue;margin-left: 60px;"><span style="color:azure;">&emsp; Archives</span> </td>
+        <tr class="icon" >
+            <td class="iconstyle"><img class="iconpicture"src="./app/Home/Static/Img/archives.png" ><span style="color:azure;">&emsp; Archives</span> </td>
             <td > </td>
         </tr>
-        <tr style="height:70px" >
-            <td align=left><img src="./app/Home/Static/Img/search.png" style="width:8%;length:3%;color:aliceblue;margin-left: 60px;"><span style="color:azure;">&emsp; search</span> </td>
+        <tr class="icon">
+            <td class="iconstyle"><img class="iconpicture"src="./app/Home/Static/Img/search.png"><span style="color:azure;">&emsp; search</span> </td>
             <td > </td>
         </tr>
-        <tr style="height:70px" >
-            <td align=left><img src="./app/Home/Static/Img/about.png" style="width:8%;length:3%;color:aliceblue;margin-left: 60px;"><span style="color:azure;">&emsp; about</span> </td>
+        <tr class="icon">
+            <td class="iconstyle"><img class="iconpicture"src="./app/Home/Static/Img/about.png"><span style="color:azure;">&emsp; about</span> </td>
             <td > </td>
         </tr>
-        <tr style="height:70px" >
-            <td align=left><img src="./app/Home/Static/Img/source-fork.png" style="width:8%;length:3%;color:aliceblue;margin-left: 60px;"><span style="color:azure;">&emsp; Source Code</span> </td>
+        <tr class="icon">
+            <td class="iconstyle"><img class="iconpicture"src="./app/Home/Static/Img/source-fork.png"><span style="color:azure;">&emsp; Source Code</span> </td>
             <td > </td>
         </tr>
-        <tr style="height:70px" >
-            <td align=left><img src="./app/Home/Static/Img/rss.png" style="width:8%;length:3%;color:aliceblue;margin-left: 60px;"><span style="color:azure;">&emsp; rss</span> </td>
+        <tr class="icon">
+            <td class="iconstyle"><img class="iconpicture"src="./app/Home/Static/Img/rss.png"><span style="color:azure;">&emsp; rss</span> </td>
             <td > </td>
         </tr>
         </table>
@@ -102,7 +146,7 @@
             <h1>【今日关注】AirPods Pro体验评测：为什么苹果降噪耳机叫Pro</h1>
             <p style="color:darkgrey">腾讯数码 10-29 20：00</p>
             <p style="line-height: 200%;">每当苹果推出一款“Pro”级别的产品，它一般都会肩负着极为重要的使命和意义。Mac Pro代表了苹果在专业台式机上最高的设计和工程技术水准，MacBook Pro在问世距今的十多年里一直是最受欢迎的专业笔记本，iPad Pro让平板电脑第一次拥有了媲美笔记本的性能和功能性，iPhone 11 Pro则带来了最强悍的手机屏幕以及集成了夜景模式和Deep Fusion的拍照三镜头。</p>
-            <a href="top-news.html"><d>continue reading</d></a>
+            <a href="./app/Home/Pages/top-news.html"><d>continue reading</d></a>
             <img class="Drawings"src="./app/Home//Static/Img/city.jpg"></img>
         </div>
         <hr width="1800" size="3" color="darkgrey" align="center" margin-left="5px">

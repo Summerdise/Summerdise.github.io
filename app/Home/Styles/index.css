@@ -1,0 +1,93 @@
+.top{
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    padding-top: 4%;
+    padding-bottom: 0%;
+}
+body{
+    margin:0%;
+    padding:0%
+}
+.left{
+    position:fixed;
+    float:left;
+    width:30%;
+    height:100%;
+    background-image: url(./app/Home/Static/Img/cover.jpg );
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.right{
+    float:right;
+    width:100%;
+    height:100%;
+    background-color: white;
+}
+.username{
+    color:azure;
+    text-align:center;
+    font-weight:500;
+    font-size: 20px;
+    line-height: 200%;
+}
+.usersignature{
+    color:azure;
+    text-align:center;
+    font-weight:350;
+    font-size: 15px;
+    line-height: 50%;
+    line-height: 15px;
+}
+.icon{
+    height:70px;
+}
+.iconstyle{
+    text-align:left;
+}
+.iconpicture{
+    width:8%;
+    length:3%;
+    color:aliceblue;
+    margin-left: 60px;
+    text-align:left;
+}
+.iconpicture2{
+    width:8%;
+    length:3%;
+    color:aliceblue;
+    margin-left: 0px;
+    text-align:left;
+}
+.righttop{
+    float:right;
+    width:68%;
+    height:50%;
+    background-color: white;
+    margin:20px;
+}
+.Drawings{
+    width:100%;
+    height:400px;
+    margin-top:20px;
+}
+.article{
+    float:right;
+    width:68%;
+    height:50%;
+    background-color: white;
+    margin:20px;
+}
+.article-left-1{
+    float:left;
+    width: 300px;
+    height:300px;
+    margin-bottom:10px;
+}
+.article-right{
+    float:left;
+    width:70%;
+    height:100%;
+    text-align: left;
+    margin:13px;
+}
