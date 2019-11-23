@@ -7,6 +7,9 @@
     background-color:white;
     text-align: center;
     z-index:999;
+    border-bottom: 0.2px;
+    outline-style: solid;
+    outline-color: lightgray;
 }
 .img-menu{
     float:left;
