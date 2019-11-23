@@ -1,45 +1,47 @@
 body {
   background-color: #1D1D1D;
+  min-height: 100vh;
   margin: 0;
   font-family: 'Droid Sans', sans-serif;
 }
 body:before {
   content: '';
   position: fixed;
-  top: 15px;
-  height:100%;
+  top: 0px;
   left: 50%;
   bottom: 0px;
-  width: 4px;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  border:1px;
-  background-color: white;
+          transform: translateX(-50%);
+  width: 4px;
+  background-color: #fff;
 }
-.entries {
-  width: 800px;
+body .entries {
+  width: calc(100% - 80px);
+  max-width: 800px;
   margin: auto;
-  float:
-  right:5px;
+  position: relative;
+  left: -5px;
 }
-.entries .entry {
-  width: 320px;
+body .entries .entry {
+  width: calc(50% - 80px);
+  float: left;
   padding: 20px;
   clear: both;
   text-align: right;
 }
-.entry:not(:first-child) {
-  margin-top: -140px;
+body .entries .entry:not(:first-child) {
+  margin-top: -60px;
 }
-.title {
-  font-size: 42px;
+body .entries .entry .title {
+  font-size: 32px;
   margin-bottom: 12px;
   position: relative;
+  /* color: #fff; */
   background-image: linear-gradient(to right, deeppink, dodgerblue);
   -webkit-background-clip: text;
   color: transparent;
 }
-.title:before {
+body .entries .entry .title:before {
   content: '';
   position: absolute;
   width: 8px;
@@ -53,20 +55,31 @@ body:before {
   right: -73px;
   z-index: 1000;
 }
-.entries .entry .body {
-  color: rgb(240, 226, 226);
+body .entries .entry .title.big:before {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: translate(8px, -50%);
+          transform: translate(8px, -50%);
 }
-.entries .entry .body p {
+body .entries .entry .body {
+  color: #aaa;
+}
+body .entries .entry .body p {
   line-height: 1.4em;
 }
-.entries .entry:nth-child(2n) {
+body .entries .entry:nth-child(2n) {
   text-align: left;
   float: right;
 }
-.entries .entry:nth-child(2n) .title:before {
+body .entries .entry:nth-child(2n) .title:before {
   left: -63px;
 }
-.entries .entry:nth-child(2n) .title.big:before {
+body .entries .entry:nth-child(2n) .title.big:before {
   -webkit-transform: translate(-8px, -50%);
           transform: translate(-8px, -50%);
 }
+
+.timenumber{
+  color: darkcyan;
+}
+

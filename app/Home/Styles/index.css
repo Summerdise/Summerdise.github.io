@@ -2,6 +2,9 @@
     margin:0;
     padding:0; 
     }
+.blur{
+    filter:Blur(Add=true.Direction=135,Strength=10)
+}
 .top{
     border-radius:50%;
     width:100px;
@@ -21,6 +24,12 @@ body{
     background-image: url(../Static/Img/cover.jpg );
     background-repeat: no-repeat;
     text-align: center;
+}
+.backgroundleft{
+    width:10px;
+    height:10px;
+    position:absolute;
+    z-index: 1;
 }
 .right{
     float:right;
@@ -55,6 +64,7 @@ body{
     color:aliceblue;
     margin-left: 60px;
     text-align:left;
+    z-index: 2;
 }
 .iconpicture2{
     width:8%;
@@ -73,6 +83,7 @@ body{
 }
 .lineheight{
     line-height: 300%;
+    margin-bottom: 15px;
 }
 .icontext{
     color:azure;
@@ -89,6 +100,17 @@ body{
     height:400px;
     margin-top:20px;
 }
+.content{
+    line-height: 200%;
+}
+.readmore{
+    text-decoration: none;
+    color: blue
+}
+.Archives{
+    text-decoration: none;
+    color: white;
+    }
 .article{
     float:right;
     width:68%;
@@ -109,3 +131,10 @@ body{
     text-align: left;
     margin:13px;
 }
+.line{
+    width:100%;
+    size:0.3;
+    color:lightgrey;
+    align:center;
+    margin-left:5px;
+ }
