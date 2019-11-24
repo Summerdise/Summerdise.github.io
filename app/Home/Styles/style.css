@@ -1,17 +1,26 @@
 body {
-  background-color: #1D1D1D;
+  background-color: black ;
   min-height: 100vh;
   margin: 0;
   font-family: 'Droid Sans', sans-serif;
 }
-body:before {
+.firstbox{
+  border:10px;
+  color: aqua; 
+  text-align: center; 
+  height:100px;
+  margin-top:100px;
+}
+
+body .entries:before {
   content: '';
-  position: fixed;
+  position:absolute;
   top: 0px;
   left: 50%;
   bottom: 0px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  height:1500px;
   width: 4px;
   background-color: #fff;
 }
@@ -52,14 +61,8 @@ body .entries .entry .title:before {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  right: -73px;
+  right: -67px;
   z-index: 1000;
-}
-body .entries .entry .title.big:before {
-  width: 24px;
-  height: 24px;
-  -webkit-transform: translate(8px, -50%);
-          transform: translate(8px, -50%);
 }
 body .entries .entry .body {
   color: #aaa;
@@ -74,12 +77,9 @@ body .entries .entry:nth-child(2n) {
 body .entries .entry:nth-child(2n) .title:before {
   left: -63px;
 }
-body .entries .entry:nth-child(2n) .title.big:before {
-  -webkit-transform: translate(-8px, -50%);
-          transform: translate(-8px, -50%);
-}
+
 
 .timenumber{
-  color: darkcyan;
+  color: aqua;
 }
 
