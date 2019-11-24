@@ -6,7 +6,7 @@
     border-radius:50%;
     width:100px;
     height:100px;
-    padding-top: 4%;
+    margin-top: 4%;
     padding-bottom: 0%;
 }
 body{
@@ -35,7 +35,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     text-align:center;
     font-weight:500;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 200%;
 }
 .usersignature{
@@ -43,9 +43,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
     text-align:center;
     font-weight:350;
-    font-size: 15px;
-    line-height: 50%;
-    line-height: 15px;
+    font-size: 18px;
+    line-height: 150%;
 }
 .icon{
     height:70px;
