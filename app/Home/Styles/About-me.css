@@ -50,13 +50,16 @@
 .inf-name{
     margin-top:2.5%;
     margin-bottom: 2.5%;
-    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
     font-weight:900px;
     text-align: center;
 }
 .inf-intro{
     width: 80%;
     margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
     height:auto;  
     line-height: 150%;
     text-align: center;
@@ -78,6 +81,7 @@
     width: 25px;
 }
 .inf-icon-intro{
-    font-size:14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:18px;
     font-weight:400px;
 }
