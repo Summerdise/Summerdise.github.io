@@ -1,7 +1,17 @@
 *{
     margin:0;
     padding:0; 
+    word-break:break-all;
     }
+.total{
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    background-image:url(../Static/Img/city.jpg);
+    z-index: 1;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
 .personal-inf{
     position: absolute;
     left:0;
@@ -13,6 +23,9 @@
     height: 50%;
     width: 30%;
     background-color: white;
+    animation: 1s;
+    -webkit-animation: fadeInDown 0.5s linear 1;
+    z-index: 3;
     }
 .inf-title{
     width:100%;
@@ -44,9 +57,7 @@
 .inf-intro{
     width: 80%;
     margin: 0 auto;
-    height:auto;
-    word-wrap: break-word;
-    word-break:normal;
+    height:auto;  
     line-height: 150%;
     text-align: center;
 }
